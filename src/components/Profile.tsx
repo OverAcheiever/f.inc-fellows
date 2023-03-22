@@ -8,7 +8,7 @@ const Profile = () => {
         Aleem Rehmtullah
       </Text>
       <Text mt="1" color="#ABABAB">
-        wsp! iced coffee `{">"}` hot coffee 🤠
+        wsp! iced coffee `&gt;` hot coffee 🤠
       </Text>
     </Center>
   );

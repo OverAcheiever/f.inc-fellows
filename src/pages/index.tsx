@@ -44,11 +44,12 @@ export default function Home() {
           <Profile />
 
           <Flex w="100%" flexDirection="column" rowGap="20px" alignItems="end">
-            {socials.map((social) => (
+            {socials.map((social, key) => (
               <Social
                 platform={social.platform}
                 icon={social.icon}
                 link={social.link}
+                key={key}
               />
             ))}
             <BecomeAFellow />
